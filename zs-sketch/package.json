@@ -1,0 +1,48 @@
+{
+  "name": "zs-sketch",
+  "version": "1.0.0",
+  "description": "Sketch + React + AirBan Project",
+  "main": "basic-setup.sketchplugin",
+  "manifest": "src/manifest.json",
+  "scripts": {
+    "build": "skpm build",
+    "watch": "skpm build --watch",
+    "render": "skpm build --watch --run",
+    "render:once": "skpm build --run",
+    "link-plugin": "skpm link"
+  },
+  "devDependencies": {
+    "skpm": "^0.9.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-native": "^0.44.0",
+    "react-primitives": "^0.3.4",
+    "react-sketchapp": "^0.10.3",
+    "react-test-renderer": "^15.4.2",
+    "uuid": "^3.0.1",
+    "yargs": "^8.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahumzs/zs.git"
+  },
+  "keywords": [
+    "design",
+    "system",
+    "react",
+    "airbnb",
+    "sketch"
+  ],
+  "author": "zsilva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nahumzs/zs/issues"
+  },
+  "homepage": "https://github.com/nahumzs/zs#readme"
+}
