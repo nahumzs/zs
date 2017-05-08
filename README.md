@@ -1,4 +1,4 @@
-## Start react-sketchapp
+## Testing react-sketchapp
 
 To run the airbnb `react-sketchapp`, please follow the following steps:
 
